@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://xml.netbeans.org/schema/Files"
+    xmlns:tns="http://xml.netbeans.org/schema/Files"
+    elementFormDefault="qualified">
+    <xsd:element name="files" type="tns:FilesType"/>
+    <xsd:complexType name="FilesType">
+        <xsd:sequence>
+            <xsd:element name="file" type="tns:FileType" minOccurs="0" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="FileType">
+        <xsd:sequence>
+            <xsd:element name="id" type="xsd:string"/>
+            <xsd:element name="user" type="tns:UserType"/>
+            <xsd:element name="nom" type="xsd:string"/>
+            <xsd:element name="taille" type="xsd:string"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="UserType">
+        <xsd:sequence>
+            <xsd:element name="email" type="xsd:string"/>
+            <xsd:element name="id" type="xsd:int"/>
+            <xsd:element name="motDePasse" type="xsd:string"/>
+            <xsd:element name="nom" type="xsd:string"/>
+            <xsd:element name="prenom" type="xsd:string"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    
+</xsd:schema>

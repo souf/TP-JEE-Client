@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="file:/C:/Users/souf/Documents/NetBeansProjects/TP_FINAL_Client/../testRestTpFinalClient/src/testresttpfinalclient/userinfoOut.xsd" uri="xml-resources/jaxb/UserInfoOut/userinfoOut.xsd"/>
+    <system systemId="file:/C:/Users/souf/Documents/NetBeansProjects/TP_FINAL_Client/../testRestTpFinalClient/src/testresttpfinalclient/userinfoesIn.xsd" uri="xml-resources/jaxb/Users/userinfoesIn.xsd"/>
+    <system systemId="file:/C:/Users/souf/Documents/NetBeansProjects/TP_FINAL_Client/src/tp_final_client/users.xsd" uri="xml-resources/jaxb/Users/users.xsd"/>
+    <system systemId="file:/C:/Users/souf/Documents/NetBeansProjects/TP_FINAL_Client/src/tp_final_client/files.xsd" uri="xml-resources/jaxb/Files/files.xsd"/>
+</catalog>
